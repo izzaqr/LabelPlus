@@ -1,0 +1,1085 @@
+@media (max-width: 1400px) {
+
+  .header,
+  .hero,
+  .label__slider,
+  .cards__slider,
+  .demo__slider,
+  .stages,
+  .design,
+  .footer__container {
+    width: 1024px;
+  }
+
+  /* ============   HEADER   =============== */
+  .nav__list {
+    gap: 30px;
+  }
+
+  .nav__list-btn {
+    width: 200px;
+  }
+
+  /* ============   HERO   =============== */
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__img {
+    position: static;
+  }
+
+  /* ============   STAGES   =============== */
+  .stages__cols {
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+    max-width: 80%;
+  }
+
+  .stages__col {
+    margin-bottom: 110px;
+  }
+
+  .stages__col:last-child,
+  .stages__col:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+
+  /* ============   CARDS   =============== */
+  .cards__form {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards__form-input,
+  .cards__form-btn,
+  .cards__form-descr {
+    width: 400px;
+  }
+
+  /* ============   DESIGN   =============== */
+  .design__form {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .design__form-input,
+  .design__form-btn,
+  .design__form-descr {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1064px) {
+
+  .header,
+  .hero,
+  .label__slider,
+  .cards__slider,
+  .demo__slider,
+  .stages,
+  .design,
+  .footer__container {
+    width: 768px;
+  }
+
+  /* ============   HEADER   =============== */
+  .header {
+    padding: 30px 0 0;
+  }
+
+  .burger-menu {
+    display: flex;
+    z-index: 11;
+  }
+
+  .header a {
+    z-index: 11;
+  }
+
+  .header__nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    z-index: 10;
+
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .header__nav.active {
+    display: flex;
+    transform: translateY(0);
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .nav__list-item {
+    font-size: 30px;
+  }
+
+  .nav__list-item:after {
+    bottom: -2px;
+  }
+
+  .nav__list-btn {
+    width: 300px;
+    height: 90px;
+    font-size: 27px;
+  }
+
+  /* ============   HERO   =============== */
+  .hero {
+    margin-bottom: 120px;
+  }
+
+  .hero__top {
+    align-items: center;
+  }
+
+  .hero__title {
+    text-align: center;
+  }
+
+  .hero__subtitle {
+    margin-top: -15px;
+  }
+
+  .hero__descr {
+    margin-bottom: 40px;
+  }
+
+  .hero__img {
+    width: 100%;
+  }
+
+  /* ============   LABEL   =============== */
+  .label__slider {
+    margin: 0 auto 100px;
+  }
+
+  .label__slider-title {
+    font-size: 33px;
+  }
+
+  .label__slider-slide {
+    font-size: 17px;
+  }
+
+  .img__border {
+    width: 175px;
+    height: 175px;
+  }
+
+  .img__border img {
+    width: 100%;
+  }
+
+  /* ============   CARDS   =============== */
+  .cards__slider {
+    justify-self: center;
+    width: 768px;
+  }
+
+  .cards__swiper {
+    overflow: hidden;
+  }
+
+  .cards__slider-slide {
+    flex-direction: column;
+    align-items: start;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .cards__slider-col {
+    margin-bottom: 70px;
+  }
+
+  .cards__col-title {
+    font-size: 36px;
+  }
+
+  .cards__col-text,
+  .cards__col-list-title,
+  .cards__col-list,
+  .cards__col-text2 {
+    font-size: 21px;
+  }
+
+  .cards__col-list {
+    margin-bottom: 40px;
+  }
+
+  .cards__col-text,
+  .cards__col-list li {
+    margin-bottom: 28px;
+  }
+
+  .cards__col-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  .cards__col-list-title {
+    margin-bottom: 30px;
+  }
+
+  .cards__slider-img {
+    width: 100%;
+    max-height: 422px;
+    border: 3px solid #ffb142;
+    border-radius: 60px;
+    box-shadow: none;
+  }
+
+  .cards__form {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cards__form-inputs {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .cards__form-btn {
+    font-size: 16px;
+  }
+
+  .cards__form-descr {
+    text-align: center;
+  }
+
+  /* ============   DEMO   =============== */
+  .demo__slider-title {
+    font-size: 31px;
+    line-height: 193%;
+    margin-bottom: 60px;
+  }
+
+  .demo__slider-wrapper {
+    margin-bottom: 60px;
+  }
+
+  .demo__slider-slide {
+    border: 2.44px solid #f8aa3e;
+    border-radius: 18px;
+  }
+
+  /* ============   STAGES   =============== */
+  .stages {
+    margin-bottom: 80px;
+  }
+
+  /* ============   DESIGN   =============== */
+  .design__form-title {
+    margin-bottom: 20px;
+  }
+
+  .design__form {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .design__form-inputs {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .design__form-descr {
+    text-align: center;
+  }
+
+  /* ============   FOOTER   =============== */
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__img {
+    display: none;
+  }
+
+  .footer__inner {
+    width: 100%;
+    grid-template-columns: .4fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 45px 45px;
+  }
+
+  .footer__img-inner {
+    display: block;
+  }
+
+  .footer__list {
+    margin-right: 0;
+    gap: 25px 55px;
+    min-width: 420px;
+  }
+
+  .footer__list-item {
+    font-size: 15px;
+  }
+
+  .footer__ps {
+    grid-row: inherit;
+    max-width: 400px;
+    font-size: 15px;
+  }
+
+  .footer__bottom {
+    justify-self: center;
+  }
+
+  .footer__bottom-link {
+    font-size: 15px;
+  }
+
+  .footer__bottom-copyright {
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 790px) {
+
+  .header,
+  .hero,
+  .label__slider,
+  .cards__slider,
+  .demo__slider,
+  .stages,
+  .design,
+  .footer {
+    width: 100%;
+  }
+
+  /* ============   HEADER   =============== */
+  .header {
+    padding: 30px 40px 0;
+    margin-bottom: 90px;
+  }
+
+  /* ============   HERO   =============== */
+  .hero {
+    padding: 0 40px;
+  }
+
+  .hero__descr {
+    text-align: center;
+  }
+
+  /* ============   LABEL   =============== */
+  .label__slider {
+    padding: 0 40px;
+  }
+
+  /* ============   CARDS   =============== */
+  .cards__slider {
+    padding: 0 40px;
+  }
+
+  /* ============   DEMO   =============== */
+  .demo__slider {
+    padding: 0 40px;
+  }
+
+  /* ============   STAGES   =============== */
+  .stages {
+    padding: 0 40px;
+  }
+
+  .stages__cols {
+    max-width: 100%;
+  }
+
+  /* ============   DESIGN   =============== */
+  .design {
+    padding: 0 40px;
+  }
+
+  /* ============   FOOTER   =============== */
+  .footer {
+    padding: 45px 40px 40px;
+  }
+
+  .footer__inner {
+    margin: 0;
+  }
+
+  /* ============   MNAVIGATION   =============== */
+  .label__swiper-navigation button,
+  .cards__swiper-navigation button,
+  .demo__swiper-navigation button {
+    width: 84px;
+    height: 84px;
+    border-width: 2.5px;
+  }
+
+  .label__swiper-navigation .swiper__btn--disable-arrow,
+  .cards__swiper-navigation .swiper__btn--disable-arrow,
+  .demo__swiper-navigation .swiper__btn--disable-arrow {
+    width: 54px;
+    height: 20px;
+  }
+
+  .label__swiper-navigation .swiper__btn--enable-arrow,
+  .cards__swiper-navigation .swiper__btn--enable-arrow,
+  .demo__swiper-navigation .swiper__btn--enable-arrow {
+    width: 29px;
+    height: 20px;
+  }
+
+  .label__swiper-pagination span,
+  .cards__swiper-pagination span,
+  .demo__swiper-pagination span {
+    width: 37px;
+    height: 2px;
+  }
+}
+
+@media (max-width: 750px) {
+
+  /* ============   HERO   =============== */
+  .hero {
+    padding: 0 20px;
+    margin-bottom: 50px;
+  }
+
+  .hero__title {
+    font-size: 40px;
+  }
+
+  .hero__subtitle {
+    font-size: 29px;
+  }
+
+  .hero__subtitle span {
+    font-size: 17px;
+  }
+
+  .hero__bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__bottom-input {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .hero__bottom-btn {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .hero__bottom-descr {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+  }
+
+  /* ============   LABEL   =============== */
+  .label__slider {
+    padding: 0 20px;
+    margin-bottom: 50px;
+  }
+
+  .label__slider-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .label__slider-wrapper {
+    margin-bottom: 35px;
+  }
+
+  .img__border {
+    width: 167px;
+    height: 167px;
+  }
+
+  /* ============   CARDS   =============== */
+  .cards__slider {
+    padding: 0 20px;
+    margin-bottom: 50px;
+  }
+
+  .cards__slider-col {
+    margin-bottom: 40px;
+  }
+
+  .cards__swiper {
+    margin-bottom: 50px;
+  }
+
+  .cards__form-inputs {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cards__form-input,
+  .cards__form-btn,
+  .cards__form-descr {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  /* ============   DEMO   =============== */
+  .demo__slider {
+    padding: 0 20px;
+    margin-bottom: 50px;
+  }
+
+  .demo__slider-wrapper {
+    margin-bottom: 60px;
+  }
+
+  .demo__slider-title {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  /* ============   STAGES   =============== */
+  .stages {
+    padding: 0 20px;
+    margin-bottom: 70px;
+  }
+
+  /* ============   DESIGN   =============== */
+  .design {
+    padding: 0 20px;
+    margin-bottom: 50px;
+  }
+
+  .ribbons {
+    margin-bottom: 90px;
+  }
+
+  .ribbon {
+    font-size: 30px;
+    gap: 20px;
+  }
+
+  .design__form-inputs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .design__form-input {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .design__form-btn {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .design__form-descr {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 710px) {
+  .footer {
+    padding: 25px 25px 35px;
+  }
+
+  .footer__inner {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0;
+  }
+
+  .footer__list {
+    grid-column: span 2;
+    grid-row: 2;
+    min-width: inherit;
+    justify-self: center;
+  }
+
+  .footer__socials {
+    justify-self: center;
+  }
+
+  .footer__ps {
+    grid-column: span 2;
+    grid-row: 3;
+    max-width: 400px;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .footer__socials {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer__bottom-link--first {
+    order: 2;
+  }
+
+  .footer__bottom-link--second {
+    order: 1;
+  }
+
+  .footer__bottom-copyright {
+    order: 3;
+    line-height: 200%;
+  }
+}
+
+@media (max-width: 650px) {
+
+  /* ============   DEMO   =============== */
+  .demo__slider-wrapper {
+    margin-bottom: 35px;
+  }
+
+  .swiper-slide-active.demo__slider-slide {
+    transform: scale(1);
+  }
+
+  .demo__slider-slide {
+    filter: brightness(1);
+  }
+
+  /* ============   STAGES   =============== */
+  .stages__title {
+    font-size: 32px;
+    margin-bottom: 100px;
+  }
+
+  .stages__col {
+    margin-bottom: 50px;
+  }
+
+  .stages__col:nth-last-child(2) {
+    margin-bottom: 50px;
+  }
+
+  /* ============   DESIGN   =============== */
+  .design__title,
+  .design__subtitle {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .design__form-title {
+    margin-bottom: 0;
+  }
+
+  .design__form-title--left,
+  .design__form-title--right {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .ribbon {
+    padding: 12px 0;
+    font-size: 22px;
+  }
+
+  .ribbon:nth-child(1) {
+    transform: rotate(-5deg);
+  }
+}
+
+@media (max-width: 530px) {
+
+  .design__title,
+  .design__subtitle {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+  .design__card-info {
+    right: inherit;
+  }
+}
+
+@media (max-width: 510px) {
+
+  /* ============   HEADER   =============== */
+  .header {
+    margin-bottom: 60px;
+  }
+
+  /* ============   HERO   =============== */
+  .hero__title {
+    font-size: 30px;
+  }
+
+  .hero__subtitle {
+    font-size: 22px;
+    margin-top: -10px;
+  }
+
+  .hero__subtitle span {
+    font-size: 15px;
+  }
+
+  .hero__descr {
+    margin-bottom: 30px;
+  }
+
+  /* ============   CARDS   =============== */
+  .cards__col-title {
+    font-size: 29px;
+  }
+
+  .cards__slider-img {
+    border: 1.71px solid #ffb142;
+    border-radius: 34px;
+  }
+
+  /* ============   NAVIGATION   =============== */
+  .label__swiper-pagination,
+  .cards__swiper-pagination,
+  .demo__swiper-pagination {
+    text-align: right;
+  }
+}
+
+@media (max-width: 470px) {
+  .footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer__ps {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 430px) {
+
+  /* ============   HEADER   =============== */
+  .header {
+    width: 100%;
+    padding: 20px 20px 0;
+    margin-bottom: 40px;
+  }
+
+  .burger-menu {
+    width: 59px;
+    height: 59px;
+  }
+
+  .burger-menu span {
+    border-radius: 85px;
+    width: 27px;
+    height: 3px;
+  }
+
+  .nav__list-item,
+  .nav__list-btn {
+    font-size: 17px;
+  }
+
+  .nav__list-btn {
+    width: 200px;
+    height: 70px;
+  }
+
+  /* ============   HERO   =============== */
+  .hero {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+    margin-bottom: 60px;
+  }
+
+  .hero__title--mobile {
+    display: block;
+    margin: 0 auto;
+    max-width: 420px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .hero__title {
+    display: none;
+  }
+
+  .hero__content {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .hero__subtitle {
+    margin: 0 auto;
+    margin-bottom: 24px;
+    padding: 5px;
+    max-width: 284px;
+    border: 1.45px solid #ec9e30;
+    border-radius: 11px;
+    width: 283px;
+    height: 57px;
+    box-shadow: 7px 7px 22px 0 rgba(100, 94, 85, 0.6);
+    font-size: 20px;
+    margin-top: -10px;
+  }
+
+  .hero__img {
+    margin: 0 auto;
+    position: static;
+    width: 100%;
+  }
+
+  .hero__subtitle {
+    font-size: 18px;
+    margin-top: -7px;
+    width: 240px;
+    height: 50px;
+  }
+
+  .hero__subtitle span {
+    font-size: 11px;
+  }
+
+  .hero__descr {
+    margin: 0 auto;
+    max-width: 304px;
+    font-size: 14px;
+    line-height: 176%;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+
+  .hero__bottom {
+    gap: 15px;
+  }
+
+  .hero__bottom-input {
+    border: 2.14px solid #a2a2a2;
+    border-radius: 13px;
+    width: 347px;
+    height: 79px;
+    font-size: 18px;
+  }
+
+  .hero__bottom-btn {
+    border-radius: 15px;
+    width: 347px;
+    height: 81px;
+    box-shadow: 11px 15px 32px 0 rgba(0, 0, 0, 0.11);
+    font-size: 17px;
+  }
+
+  .hero__bottom-input,
+  .hero__bottom-btn {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .hero__bottom-descr {
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  /* ============   LABEL   =============== */
+  .label__slider {
+    padding: 0 10px;
+    margin-bottom: 45px;
+  }
+
+  .label__slider-title {
+    font-size: 28px;
+    line-height: 149%;
+    margin-bottom: 30px;
+  }
+
+  .label__swiper {
+    padding: 0 15px;
+  }
+
+  .label__slider-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .label__slider-slide {
+    font-size: 13px;
+  }
+
+  .img__border {
+    width: 167px;
+    height: 167px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .img__border img {
+    width: 100%;
+  }
+
+  /* ============   CARDS   =============== */
+  .cards__col-text,
+  .cards__col-list-title,
+  .cards__col-list li,
+  .cards__col-text2 {
+    font-size: 17px;
+    margin-bottom: 22px;
+  }
+
+  .cards__slider-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .cards__col-list {
+    margin-bottom: 30px;
+  }
+
+  .cards__col-text2 {
+    margin-bottom: 0;
+  }
+
+  .cards__slider-img {
+    max-height: 241px;
+  }
+
+  /* ============   STAGES   =============== */
+  .stages__title {
+    font-size: 26px;
+  }
+
+  /* ============   DESIGN   =============== */
+  .design__form,
+  .design__form-inputs {
+    gap: 25px;
+  }
+
+  .design__form-title--left,
+  .design__form-title--right {
+    font-size: 29px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  /* ============   NAVIGATION   =============== */
+  .label__swiper-navigation .swiper-buttons button,
+  .cards__swiper-navigation .swiper-buttons button,
+  .demo__swiper-navigation .swiper-buttons button {
+    border-width: 2px;
+    width: 71px;
+    height: 71px;
+  }
+
+  .swiper-buttons {
+    gap: 10px;
+  }
+
+  .label__swiper-navigation .swiper-buttons button svg,
+  .cards__swiper-navigation .swiper-buttons button svg,
+  .demo__swiper-navigation .swiper-buttons button svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .label__swiper-navigation .swiper-buttons .swiper-button-disabled svg,
+  .cards__swiper-navigation .swiper-buttons .swiper-button-disabled svg,
+  .demo__swiper-navigation .swiper-buttons .swiper-button-disabled svg {
+    width: 46px;
+    height: 17px;
+  }
+
+  .label__swiper-pagination .swiper-pagination-bullet,
+  .cards__swiper-pagination .swiper-pagination-bullet,
+  .demo__swiper-pagination .swiper-pagination-bullet {
+    width: 32px;
+    height: 2px;
+  }
+}
+
+@media (max-width: 410px) {
+
+  /* ============   LABEL   =============== */
+  .label__slider-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 390px) {
+
+  /* ============   LABEL   =============== */
+  .img__border {
+    width: 130px;
+    height: 130px;
+  }
+
+  /* ============   CARDS   =============== */
+  .cards__slider-col {
+    margin-bottom: 30px;
+  }
+
+  .cards__col-title {
+    font-size: 22px;
+  }
+
+  .cards__col-text,
+  .cards__col-list-title,
+  .cards__col-list li,
+  .cards__col-text2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .cards__col-list {
+    margin-bottom: 25px;
+  }
+
+  .cards__col-text2 {
+    margin-bottom: 0;
+  }
+
+  .cards__slider-img {
+    border-radius: 20px;
+  }
+
+  /* ============   DEMO   =============== */
+  .demo__slider-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .design__form-title--left,
+  .design__form-title--right {
+    font-size: 27px;
+  }
+}

@@ -1,0 +1,65 @@
+/* ============   STAGES   =============== */
+/* ============   STAGES   =============== */
+/* ============   STAGES   =============== */
+
+.stages {
+  margin-bottom: 130px;
+}
+
+.stages__title {
+  justify-self: center;
+  margin-bottom: 122px;
+  max-width: 782px;
+  font-family: var(--second-family);
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 172%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #131313;
+}
+
+.stages__cols {
+  display: flex;
+  gap: 31px;
+}
+
+.stages__col {
+  position: relative;
+}
+
+.stages__col span {
+  position: absolute;
+  top: -107px;
+  left: 35px;
+  z-index: -1;
+
+  font-family: var(--second-family);
+  font-weight: bold;
+  font-size: 83px;
+  line-height: 203%;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(19, 19, 19, 0.1);
+}
+
+.stages__col p {
+  max-width: 221px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 183%;
+  color: #131313;
+}
+
+.stages__col-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 33px;
+  border-radius: 25px;
+  width: 269px;
+  height: 269px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  background: linear-gradient(180deg, #fcfcfc 0%, #f7f7f7 100%);
+}
