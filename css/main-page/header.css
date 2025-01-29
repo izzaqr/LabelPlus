@@ -1,0 +1,89 @@
+/* ============   HEADER   =============== */
+/* ============   HEADER   =============== */
+/* ============   HEADER   =============== */
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-self: center;
+  padding: 35px 0 0;
+  margin-bottom: 70px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav__list-item {
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  transition: opacity .4s, visibility .4s;
+}
+
+.nav__list-item:after {
+  opacity: 0;
+  visibility: hidden;
+  content: '';
+  position: absolute;
+  border: 1px solid #ffb142;
+  width: 100%;
+  left: 0;
+  bottom: -7px;
+  transition: opacity .4s, visibility .4s;
+}
+
+.nav__list-item:hover:after,
+.nav__list-item--active.nav__list-item:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav__list-item--active {
+  font-weight: 600;
+}
+
+.nav__list-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--second-family);
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  padding: 25px;
+
+  border-radius: 15px;
+  width: 249px;
+  height: 71px;
+  box-shadow: 10px 14px 30px 0 rgba(0, 0, 0, 0.19);
+  background: #f8aa3e;
+}
+
+/* Бургер меню */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  background-color: #f8aa3e;
+  cursor: pointer;
+}
+
+.burger-menu span {
+  display: block;
+  border-radius: 85px;
+  width: 29px;
+  height: 4px;
+  background: #fff;
+  transition: all 0.3s;
+}

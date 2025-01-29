@@ -1,0 +1,32 @@
+/* MAIN PAGE */
+@import url('main-page/style.css');
+@import url('main-page/header.css');
+@import url('main-page/hero.css');
+@import url('main-page/label-slider.css');
+@import url('main-page/cards-slider.css');
+@import url('main-page/demo-slider.css');
+@import url('main-page/stages.css');
+@import url('main-page/design.css');
+@import url('main-page/footer.css');
+@import url('main-page/media.css');
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Benzin", sans-serif;
+}
+
+/* * {
+  outline: 1px solid red !important;
+} */
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 17px;
+  background: #f8f7f3;
+  overflow-x: hidden;
+}
